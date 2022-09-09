@@ -9788,7 +9788,6 @@ displayed Org file fills the frame."
       (when (derived-mode-p 'org-mode)
 	(org-fold-show-context 'agenda)
         (recenter (/ (window-height) 2))
-        (org-back-to-heading t)
 	(run-hooks 'org-agenda-after-show-hook)))))
 
 (defun org-agenda-goto-mouse (ev)
